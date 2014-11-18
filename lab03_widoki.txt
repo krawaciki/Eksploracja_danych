@@ -1,0 +1,11 @@
+CREATE VIEW Krawczyk_WymiarDostawca AS
+SELECT SupplierID, CompanyName, City, Country FROM Suppliers;
+
+CREATE VIEW Krawczyk_WymiarProdukt AS
+SELECT Products.ProductID, Products.ProductName, Categories.CategoryName FROM Products JOIN Categories 
+ON Products.CategoryID=Categories.CategoryID;
+
+CREATE VIEW Krawczyk_FaktyProdukty AS
+SELECT ProductID, ProductName, UnitsInStock FROM Products;
+
+DROP VIEW Krawczyk_WymiarDostawca, Krawczyk_WymiarProdukt, Krawczyk_FaktyProdukty;

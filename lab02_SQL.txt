@@ -1,0 +1,15 @@
+Podstawy SQL’a 1. Przez 15 minut wykorzystaj zasoby internetowe do przypomnienia sobie informacji o relacyjnych bazach danych. Dobre „szybkie kompendia” to np.
+
+http://www.zie.pg.gda.pl/zzti/dydaktyka/podstawy_relacyjnych_baz_danych/access_n st2008z_lab01_podstawy.pdf
+http://wazniak.mimuw.edu.pl/images/7/79/BD-1st-2.4-lab1.tresc-1.1-kolor.pdf Jeœli natrafisz na zagadnienia, których nie rozumiesz – zapytaj prowadz¹cego. Wiêcej mo¿na siê dowiedzieæ z http://www.w3schools.com/sql/sql_intro.asp (opisy ró¿nych funkcji i samouczek).
+
+Wykorzystuj¹c widok relacji bazy Northwind utwórz diagram bazy danych o nazwie „Relacje” i odtwórz klucze oraz relacje pomiêdzy tabelami.
+
+Wykonaj poni¿sze polecenia:
+5. wyœwietl nazwisko pracowników dla których region nie zosta³ zdefiniowany (znajdŸ informacjê o wartoœciach NULL i klauzuli WHERE)
+6. wyœwietl najdro¿szy i najtañszy produkt (tabela Products) (znajdŸ informacjê o funkcjach MAX i MIN oraz operatorze UNION oraz SELECT TOP);
+7. wyœwietl wszystkie produkty, których cena jednostkowa jest wy¿sza od œredniej (znajdŸ informacjê o funkcji AVG); - wyœwietl sumê frachtu (freight) dla wszystkich zamówieñ (znajdŸ informacjê o funkcji SUM);
+8. wyœwietl nazwy produktów, która zosta³y zamówione (order date) w weekend (znajdŸ informacjê o funkcjach DATENAME i DATEPART w T-SQL) ; 
+-wyœwietl œredni¹ cenê produktu w zale¿noœci od kategorii (znajdŸ informacjê o klauzuli GROUP BY);
+9. wyœwietl nazwy wszystkich klientów wraz z ³¹czn¹ sum¹ dokonanych przez nich transakcji (suma transakcji: unitPrice*Quantity- Discount)
+10. wyœwietl nazwy produktów wraz z iloœci¹ zamówionych
